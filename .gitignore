@@ -21,4 +21,4 @@ pnpm-debug.log*
 .DS_Store
 
 # Netlify
-.netlify
+.netlify/functions-internal
