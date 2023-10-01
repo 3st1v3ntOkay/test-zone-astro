@@ -5,8 +5,10 @@
     "jsxImportSource": "preact",
     "paths": {
       "@components/*": ["./src/components/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@styles/*": ["./src/styles/*"],
       "@layouts/*": ["./src/layouts/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@pages/*": ["./src/pages/*"]
     }
   }
 }
