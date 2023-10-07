@@ -1,5 +1,11 @@
-# Astro Testing Project
+# Personal Portfolio
 
-## 👀 Want to learn more about Astro?
+### made in Astro
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![https://astro.build/](Astro)
+
+## About the project
+This is a personal project where you can see how I programmed this simple portfolio. You can also see how I like to program.
+
+### Extra links
+![https://astro.build/](Linkedin)
