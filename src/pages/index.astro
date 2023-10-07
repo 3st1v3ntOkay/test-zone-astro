@@ -1,8 +1,10 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Home Page";
+import BodyLayout from "../layouts/BodyLayout.astro";
 ---
 
-<BaseLayout>
-  <h1>Eppa</h1>
-</BaseLayout>
+<BodyLayout>
+  <title slot="head">Index</title>
+
+  <h1>Index page</h1>
+  <a href="/second">Go to second page</a>
+</BodyLayout>

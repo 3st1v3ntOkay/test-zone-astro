@@ -1,0 +1,19 @@
+---
+import { ViewTransitions, fade } from "astro:transitions";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <slot name="head" />
+    <ViewTransitions
+      fallback="animate"
+      transition:animate={fade({ duration: "0.4s" })}
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
