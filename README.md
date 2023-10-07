@@ -1,6 +1,7 @@
 # Personal Portfolio
 
-### made in Astro
+> [!Technologies]
+> Astro, HTML, CSS, JavaScript
 
 ![https://astro.build/](Astro)
 
