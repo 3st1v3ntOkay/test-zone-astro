@@ -1,10 +1,10 @@
 ---
 import BodyLayout from "@layouts/BodyLayout.astro";
+const pageTitle = "Second";
 ---
 
-<BodyLayout>
-  <title slot="head">Second</title>
-
+<BodyLayout pageTitle={pageTitle}>
   <h1>Second page</h1>
-  <a href="/">Go to first page</a>
+  <a href="/">Go to first page</a><br />
+  <a href="/blogi">Go to Blogi</a>
 </BodyLayout>

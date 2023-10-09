@@ -1,8 +1,10 @@
 ---
 import HTMLLayout from "@layouts/HTMLLayout.astro";
+
+const { pageTitle } = Astro.props;
 ---
 
 <HTMLLayout>
-  <slot name="head" slot="head" />
+  <title slot="head">{pageTitle}</title>
   <slot />
 </HTMLLayout>

@@ -1,6 +1,14 @@
+@font-face {
+  font-family: "myfont";
+  src: url("/fonts/regular.ttf") format("ttf");
+  font-weigth: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  font-family: "myfont", "Product Sans", sans-serif;
 }
 
 body {

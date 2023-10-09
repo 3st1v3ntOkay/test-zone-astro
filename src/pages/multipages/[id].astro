@@ -1,0 +1,24 @@
+---
+import BodyLayout from "@layouts/BodyLayout.astro";
+
+const { id } = Astro.params;
+const ip = Astro.clientAddress;
+const astroSite = Astro.site;
+const pageTitle = `Page no. ${id}`
+---
+
+<BodyLayout pageTitle={pageTitle}>
+  <h1>Welcome to page no. {id}</h1>
+  <a href="/">Go to first page</a>
+  <br />
+  <p>Id page: {id}</p>
+  <p>Client 's IP Adress {ip}</p>
+  <p>{astroSite}</p>
+
+  <a href=`/multipages/${Number(id)+1}`>next</a><br>
+
+  {
+    id > 1
+    ? (<a href=`/multipages/${Number(id)-1}`>previous</a>) : (<a href="">previous</a>)
+  }
+</BodyLayout>
