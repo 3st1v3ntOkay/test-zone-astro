@@ -1,5 +1,7 @@
 ---
 import BodyLayout from "@layouts/BodyLayout.astro";
+import { Code } from 'astro:components';
+
 const pageTitle = "First";
 ---
 
@@ -7,4 +9,6 @@ const pageTitle = "First";
   <h1>Index page</h1>
   <a href="/second">Go to second page</a><br />
   <a href="/blogi">Go to Blogi</a>
+
+  <Code code={`const foo = 'bar';`} lang="js" />
 </BodyLayout>
