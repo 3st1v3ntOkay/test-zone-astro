@@ -4,15 +4,15 @@ README.md file in working process ...
 
 ## Technologies I used in this mini project
 
-[Astro](https://astro.build/)
-CSS and HTML
-JavaScript
-Markdown
+- [Astro](https://astro.build/)
+- CSS and HTML
+- JavaScript
+- Markdown
 
 **Add in a future**
-[Typescript](https://www.typescriptlang.org/)
-[React](https://react.dev/)
-[Tailwind](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [Tailwind](https://tailwindcss.com/)
 
 ## About the project
 
