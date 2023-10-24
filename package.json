@@ -1,6 +1,6 @@
 {
   "name": "test-zone-astro",
-  "version": "3.0.4",
+  "version": "4.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
